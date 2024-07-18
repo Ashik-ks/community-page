@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.bg-div{
+    background-image: url(./images/dicordbackground.png);
+    background-size: cover;
+    min-width: 100vw;
+   min-height: 100vh;
+}
+.form{
+min-width: 576px;
+    background-color: rgb(60, 58, 58);
+    border-radius: 7px;
+}
+.form-control{
+    max-width: 93%;
+}
+.btns{
+    width: 93%;
+    background-color: rgb(77, 25, 208);
+    border-radius: 4px;
+}
+.formtext{
+    font-size: 15px;
+    color: rgb(203, 186, 186);
+}
+.formtext1{
+    font-size: 14px;
+    color: rgb(203, 186, 186);
+}
+.formtext2{
+    font-size: 13px;
+}
+@media only screen  and (max-width:576px){
+    .aaa{
+      display: none;
+    }
+    .form{
+        min-height: auto;
+    }
+}
