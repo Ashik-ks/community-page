@@ -1,43 +1,44 @@
 *{
     margin: 0;
     padding: 0;
-   
 }
-.bg-div{
-    background-image: url(./images/dicordbackground.png);
-    background-size: cover;
-    min-width: 100vw;
-   min-height: 100vh;
+
+body{
+   background-image: url(./community-images/odin.jpeg.jpg);
+   background-size: cover;
 }
-.form{
-min-width: 576px;
-    background-color: rgb(60, 58, 58);
-    border-radius: 7px;
+
+.form-custom{
+    
+    background-color: #373636;
 }
-.form-control{
-    max-width: 93%;
+.formhead{
+    display: none;
 }
-.btns{
-    width: 93%;
-    background-color: rgb(77, 25, 208);
-    border-radius: 4px;
+.registering-text{
+    font-size: 12px;
 }
-.formtext{
-    font-size: 15px;
-    color: rgb(203, 186, 186);
-}
-.formtext1{
+.privacy-text{
     font-size: 14px;
-    color: rgb(203, 186, 186);
 }
-.formtext2{
-    font-size: 13px;
+.characters-text{
+    font-size: 14px;
 }
-@media only screen  and (max-width:576px){
-    .aaa{
-      display: none;
+@media only screen and (max-width:478px){
+    .form-custom-div{
+        width: 100%;
+        height: auto;
+    } 
+    
+    .form-custom{
+        
+        height: 100vh;
     }
-    .form{
-        min-height: auto;
+    nav{
+        display: none;
+    }
+    body{
+        background-image: none;
     }
 }
+                  
